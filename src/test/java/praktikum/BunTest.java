@@ -4,8 +4,8 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class BunTest {
-    String bunName = "black bun";
-    float bunPrice = 100;
+    private final String bunName = "black bun";
+    private final float bunPrice = 100;
 
     @Test
     public void getBunNameTest() {
